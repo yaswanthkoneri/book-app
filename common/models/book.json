@@ -1,0 +1,70 @@
+{
+  "name": "book",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "book_cover_page": {
+      "type": "string"
+    },
+    "book_price": {
+      "type": "string"
+    },
+    "book_rent_value": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "edition": {
+      "type": "string"
+    },
+    "genres": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "isbn_code": {
+      "type": "string"
+    },
+    "no_of_pages": {
+      "type": "string"
+    },
+    "publish_date": {
+      "type": "date"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "sample_page_url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "created_on": {
+      "type": "date"
+    },
+    "modified_on": {
+      "type": "date"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "modified_by": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

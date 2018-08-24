@@ -1,12 +1,10 @@
 {
-  "db": {
+  "mydb": {
+    "name": "mydb",
+    "connector": "mysql",
     "host": "localhost",
-    "port": 27017,
-    "url":  "",
-    "database": "lb-book-app",
-    "password": "",
-    "name": "db",
-    "user": "me",
-    "connector": "mongodb"  
-  }
+    "port": 3306,
+    "password": "password",
+    "user": "root"
+   }
 }
